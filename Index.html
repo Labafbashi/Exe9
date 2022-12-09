@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Övning 9: Web - Front-end och JavaScript</title>
+    <script src="./script/BishBosh.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <h1>Hello</h1>
+    <form name="frm1" method="post">
+      <div>
+        <label for="bishValue">
+          Pleae define a Bish value:
+          <input
+            type="number"
+            id="bishValue"
+            name="bishValue"
+            min="0"
+            onkeypress="chkBishValue(event);"
+          />
+        </label>
+      </div>
+      <div>
+        <label for="boshValue">
+          Please define a Bosh value:
+          <input type="number" id="boshValue" name="boshValue" min="0" />
+        </label>
+      </div>
+      <div>
+        <label for="countValue">
+          Please define a counting till:
+          <input type="number" id="countValue" name="countValue" min="0" />
+        </label>
+      </div>
+      <div>
+        <input type="submit" value="Calculate" />
+      </div>
+    </form>
+  </body>
+</html>
+<!---->
