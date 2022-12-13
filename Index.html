@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Övning 9: Web - Front-end och JavaScript</title>
-    <script src="./script/BishBosh.js" type="text/javascript"></script>
+    <link href="css/style.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -53,11 +53,7 @@
         </label>
       </div>
       <div>
-        <input
-          type="submit"
-          value="Calculate"
-          onclick="calculateBishBosh(bishValue.value, boshValue.value, countValue.value);"
-        />
+        <input type="submit" value="Calculate" id="submit" name="submit" />
       </div>
       <div>
         <label>
@@ -73,6 +69,7 @@
         </label>
       </div>
     </form>
+    <script src="./script/BishBosh.js" type="text/javascript"></script>
   </body>
   <footer>
     <!-- Footer Start -->
